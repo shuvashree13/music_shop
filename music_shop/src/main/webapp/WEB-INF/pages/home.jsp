@@ -8,12 +8,6 @@
     <!-- link to our custom css files -->
     <link rel="stylesheet" type ="text/css" href="css/home.css" />
     <title>Guitar Shop</title>
-    <style>
-     *
-     {
-        scroll-behavior: smooth;
-     }
-    </style>
 </head>
 <body>
     <!-- navigation bar of our website -->
@@ -25,9 +19,9 @@
             <div class="links">
                 <a href="/WEB-INF/pages/home.jsp">Home</a>
                 <a href="/WEB-INF/pages/product.jsp">Products</a>
-                <a href="#">Login</a>
-                <a href="#">Register</a>
-                <a href="#">Contact</a>
+                <a href="/WEB-INF/pages/Login.jsp">Login</a>
+                <a href="/WEB-INF/pages/Register.jsp">Register</a>
+                <a href="/WEB-INF/pages/Contact.jsp">Contact</a>
                
             </div>
            
@@ -44,11 +38,11 @@
                 <p style="font-size: 19px;">For players who wish to experiment with diverse sounds and discover new musical genres, the Dream Maker UK21 is the perfect option because of its unique and energizing tone. For musicians looking to take their performing to the next level, this ukulele is an excellent option.</p>
                      <div class="order">
                       
-                       <button >Order Now </button></a>
+                       <a href="/WEB-INF/pages/product8.jsp"><button >Order Now </button></a>
                      </div>
             </div>
        
-                <img src="/islington-student/src/main/webapp/resources/images/system/uk1.jpg"class="image">
+                <img src="/islington-student/src/main/webapp/resources/images/system/uk4.jpg"class="image">
        
         </div>
     </section>
@@ -61,7 +55,7 @@
         <div class="procontainer">
             <div class="pro">
                 
-                <img src="images/MAXIFY GX2020.png" alt="firstproduct" style="scale: 85%;">
+                <img src="images/system/g1.jpg" alt="firstproduct" style="scale: 85%;">
            
                 <div class="des">
                     <span>Fendor</span>
@@ -70,14 +64,14 @@
                     <h4>RS.15,000</h4>
                 </div>
                 <div class="cart">
-                <a href="./product.pages/product3.html"><img src="system/cart.png" alt="cart" style="scale: 120%;"></a></div>
+                <a href="/WEB-INF/pages/product1.jsp"><img src="images/system/cart.png" alt="cart" style="scale: 120%;"></a></div>
             </div>
 
 
             <!-- another product -->
             <div class="pro">
                 
-                <img src="images/printer3.png" alt="2ndproduct" style="scale: 80%;">
+                <img src="images/system/g2.jpg" alt="2ndproduct" style="scale: 80%;">
            
                 <div class="des">
                     <span>Yamaha</span>
@@ -86,14 +80,14 @@
                     <h4>Rs.10,000</h4>
                 </div>
                 <div class="cart">
-                <a href="./product.pages/product4.html"><img src="logo/cart.png" alt="cart" style="scale: 120%;"></a></div>
+                <a href="/WEB-INF/pages/product2.jsp"><img src="images/system/cart.png" alt="cart" style="scale: 120%;"></a></div>
             </div>
 
 
              <!-- another product -->
              <div class="pro">
                 
-                <img src="images/PIXMA G7020.png" alt="firstproduct" style="scale: 85%;">
+                <img src="images/system/g3.jpg" alt="firstproduct" style="scale: 85%;">
            
                 <div class="des">
                     <span>Grestch Jim</span>
@@ -102,7 +96,7 @@
                     <h4>Rs.15,500</h4>
                 </div>
                 <div class="cart">
-                <a href="./product.pages/product2.html"><img src="logo/cart.png" alt="cart" style="scale: 120%;"></a></div>
+                <a href="/WEB-INF/pages/product3.jsp"><img src="images/system/cart.png" alt="cart" style="scale: 120%;"></a></div>
             </div>
 
 
@@ -125,7 +119,7 @@
         <div class="procontainer">
             <div class="pro">
                 
-                <img src="images/barcode printer.png" alt="firstproduct" style="scale: 75%;">
+                <img src="images/system/uk1.jpg" alt="firstproduct" style="scale: 75%;">
            
                 <div class="des1">
                     <h1>Joy Music</h1>
@@ -134,14 +128,14 @@
                     <h4>Rs.4,000</h4>
                 </div>
                 <div class="cart">
-                <a href="#"><img src="logo/cart.png" alt="cart" style="scale: 120%;"></a></div>
+                <a href="#"><img src="images/system/cart.png" alt="cart" style="scale: 120%;"></a></div>
             </div>
 
 
             <!-- another product -->
             <div class="pro">
                 
-                <img src="images/bigprinter.png" alt="2ndproduct" style="scale: 110%;">
+                <img src="images/system/uk2.jpg" alt="2ndproduct" style="scale: 110%;">
                 <br>
                 <br>
                 <br>
@@ -161,14 +155,14 @@
                     <h4>Rs.9,000</h4>
                 </div>
                 <div class="cart">
-                <a href="#"><img src="logo/cart.png" alt="cart" style="scale: 120%;"></a></div>
+                <a href="#"><img src="images/system/cart.png" alt="cart" style="scale: 120%;"></a></div>
             </div>
 
 
              <!-- another product -->
              <div class="pro">
                 
-                <img src="images/longprinter.png" alt="firstproduct" style="scale: 103%;">
+                <img src="images/system/uk3.jpg" alt="firstproduct" style="scale: 103%;">
                 
                 <br>
                 <br>
@@ -185,7 +179,7 @@
                     <h4>Rs.5,000</h4>
                 </div>
                 <div class="cart">
-                <a href="#"><img src="logo/cart.png" alt="cart" style="scale: 120%;"></a></div>
+                <a href="#"><img src="images/system/cart.png" alt="cart" style="scale: 120%;"></a></div>
             </div>
 
 
@@ -225,12 +219,12 @@
                <div class="col">
                    <h3>Pages below<div class="underline"></div></h3>
                    <ul>
-                       <li><a href="home.jsp">Home</a></li>
-                       <li><a href="/pages/product.jsp]" target="_blank">Products</a></li>
-                       <li><a href="#">Login</a></li>
+                       <li><a href="WEB-INF/pages/home.jsp">Home</a></li>
+                       <li><a href="WEB-INF/pages/product.jsp" target="_blank">Products</a></li>
+                       <li><a href="WEB-INF/pages/login.jsp">Login</a></li>
                        
-                <li><a href="#" target="_blank">Register</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="WEB-INF/pages/register.jsp" target="_blank">Register</a></li>
+                <li><a href="WEB-INF/pages/contact.jsp">Contact</a></li>
             
                    </ul>
                </div>           
