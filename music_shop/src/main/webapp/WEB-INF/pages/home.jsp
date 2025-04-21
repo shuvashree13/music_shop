@@ -1,24 +1,244 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Home</title>
-<link rel="stylesheet" type="text/css"
-	href="${pageContext.request.contextPath}/css/header.css" />
-<link rel="stylesheet" type="text/css"
-	href="${pageContext.request.contextPath}/css/home.css" />
-<link rel="stylesheet" type="text/css"
-	href="${pageContext.request.contextPath}/css/footer.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link to our custom css files -->
+    <link rel="stylesheet" type ="text/css" href="css/home.css" />
+    <title>Guitar Shop</title>
+    <style>
+     *
+     {
+        scroll-behavior: smooth;
+     }
+    </style>
 </head>
 <body>
-	<jsp:include page="header.jsp" />
-	
-	<div class="main-body">
-		This is our Home Page
-	</div>
-	
-	<jsp:include page="footer.jsp" />
+    <!-- navigation bar of our website -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <a href="home.jsp"><img src="../../resources/images/system/logo.png" alt="logo"></a>
+            </div>
+            <div class="links">
+                <a href="/WEB-INF/pages/home.jsp">Home</a>
+                <a href="/WEB-INF/pages/product.jsp">Products</a>
+                <a href="#">Login</a>
+                <a href="#">Register</a>
+                <a href="#">Contact</a>
+               
+            </div>
+           
+
+        </div>
+    </nav>
+<!-- contents inside the front of our home page -->
+    <section id="content" style="background-color:rgb(223, 223, 223);">
+        <div class="content">
+            <div class="main-content">
+                <h1>DREAM MAKER </h1>
+                <h2>UK21</h2>
+                
+                <p style="font-size: 19px;">For players who wish to experiment with diverse sounds and discover new musical genres, the Dream Maker UK21 is the perfect option because of its unique and energizing tone. For musicians looking to take their performing to the next level, this ukulele is an excellent option.</p>
+                     <div class="order">
+                      
+                       <button >Order Now </button></a>
+                     </div>
+            </div>
+       
+                <img src="/islington-student/src/main/webapp/resources/images/system/uk1.jpg"class="image">
+       
+        </div>
+    </section>
+    <!-- section end -->
+         
+
+    <!-- Guitar -->
+    <section id="product1" class="section-p1">
+        <h1 style="font-size: 43px;">Guitars</h1>
+        <div class="procontainer">
+            <div class="pro">
+                
+                <img src="images/MAXIFY GX2020.png" alt="firstproduct" style="scale: 85%;">
+           
+                <div class="des">
+                    <span>Fendor</span>
+                    <h5>CD-60S</h5>
+                    
+                    <h4>RS.15,000</h4>
+                </div>
+                <div class="cart">
+                <a href="./product.pages/product3.html"><img src="system/cart.png" alt="cart" style="scale: 120%;"></a></div>
+            </div>
+
+
+            <!-- another product -->
+            <div class="pro">
+                
+                <img src="images/printer3.png" alt="2ndproduct" style="scale: 80%;">
+           
+                <div class="des">
+                    <span>Yamaha</span>
+                    <h5>FG800J NT</h5>
+                    
+                    <h4>Rs.10,000</h4>
+                </div>
+                <div class="cart">
+                <a href="./product.pages/product4.html"><img src="logo/cart.png" alt="cart" style="scale: 120%;"></a></div>
+            </div>
+
+
+             <!-- another product -->
+             <div class="pro">
+                
+                <img src="images/PIXMA G7020.png" alt="firstproduct" style="scale: 85%;">
+           
+                <div class="des">
+                    <span>Grestch Jim</span>
+                    <h5>Dandy Parlor</h5>
+                  
+                    <h4>Rs.15,500</h4>
+                </div>
+                <div class="cart">
+                <a href="./product.pages/product2.html"><img src="logo/cart.png" alt="cart" style="scale: 120%;"></a></div>
+            </div>
+
+
+             
+
+        </div>
+    </section>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+    
+    <br>
+    <!-- ukelele -->
+
+    <section id="product1" class="section-p1">
+        <h1 style="font-size: 43px;">Ukeleles</h1>
+        <div class="procontainer">
+            <div class="pro">
+                
+                <img src="images/barcode printer.png" alt="firstproduct" style="scale: 75%;">
+           
+                <div class="des1">
+                    <h1>Joy Music</h1>
+                    <h5>UK235</h5>
+                    
+                    <h4>Rs.4,000</h4>
+                </div>
+                <div class="cart">
+                <a href="#"><img src="logo/cart.png" alt="cart" style="scale: 120%;"></a></div>
+            </div>
+
+
+            <!-- another product -->
+            <div class="pro">
+                
+                <img src="images/bigprinter.png" alt="2ndproduct" style="scale: 110%;">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                
+           
+                <div class="des1">
+                    <h1>Yamaha</h1>
+                    <h5>GL1</h5>
+                    
+                    <h4>Rs.9,000</h4>
+                </div>
+                <div class="cart">
+                <a href="#"><img src="logo/cart.png" alt="cart" style="scale: 120%;"></a></div>
+            </div>
+
+
+             <!-- another product -->
+             <div class="pro">
+                
+                <img src="images/longprinter.png" alt="firstproduct" style="scale: 103%;">
+                
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+              
+                <div class="des1">
+                    <h1>Fendor</h1>
+                    <h5>Venice Soprano</h5>
+                   
+                    <h4>Rs.5,000</h4>
+                </div>
+                <div class="cart">
+                <a href="#"><img src="logo/cart.png" alt="cart" style="scale: 120%;"></a></div>
+            </div>
+
+
+             
+
+        </div>
+    </section> 
+    <br>
+                <br>
+                <br>
+                <br>
+            
+<hr>
+<br>
+
+
+        <!-- footer codes -->
+        
+        <footer>
+            <section class="footer">
+            
+                <div class="row">
+                    <div class="col">
+                        <a href="index.html"><img src="logo/logo.png"class="logo1"></a>
+                        
+               </div>
+               
+               <div class="col">
+                   <h3>Developers <div class="underline"></div></h3>
+               <p><a href="https://www.instagram.com/" target="_blank"> Shuvashree</a> <br> <br><a href="https://www.instagram.com/" target="_blank">Aarju</a><br>
+                <br><a href="https://www.instagram.com/" target="_blank" >Swoodhin</a><br>
+                <br><a href="https://www.instagram.com/" target="_blank">Pankaj</a>
+               
+            </p>
+                
+            </div>
+               <div class="col">
+                   <h3>Pages below<div class="underline"></div></h3>
+                   <ul>
+                       <li><a href="home.jsp">Home</a></li>
+                       <li><a href="/pages/product.jsp]" target="_blank">Products</a></li>
+                       <li><a href="#">Login</a></li>
+                       
+                <li><a href="#" target="_blank">Register</a></li>
+                <li><a href="#">Contact</a></li>
+            
+                   </ul>
+               </div>           
+               
+        </div>                    
+        
+            </section> 
+         </footer>
+
 </body>
 </html>
