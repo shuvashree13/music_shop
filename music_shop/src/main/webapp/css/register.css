@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #d3d3d3; /* Light grey background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px; /* MATCH LOGIN WIDTH */
+  padding: 20px;
+}
+
+.signup-box {
+  background-color: #b0b0b0; /* Slightly darker grey */
+  padding: 40px;
+  text-align: center;
+  border-radius: 8px;
+  color: black; /* MATCH LOGIN TEXT COLOR */
+}
+
+.signup-box h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  background-color: white;
+  width: 100%;
+  border-radius: 4px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.signin-link {
+  margin-top: 30px;
+  font-size: 14px;
+  color: black;
+}
+
+.signin-link a {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}
