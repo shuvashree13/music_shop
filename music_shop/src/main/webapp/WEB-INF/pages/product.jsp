@@ -9,17 +9,18 @@
     <link rel="stylesheet" type ="text/css" href="css/product.css" />
 </head>
 <body>
+    <!-- navigation bar of our website -->
     <nav>
         <div class="container">
             <div class="logo">
-                <a href="../index.html"><img src="../logo/logo.png" alt="logo"></a>
+                <a href="home.jsp"><img src="../../resources/images/system/logo.png" alt="logo"></a>
             </div>
             <div class="links">
                 <a href="/WEB-INF/pages/home.jsp">Home</a>
                 <a href="/WEB-INF/pages/product.jsp">Products</a>
-                <a href="#">Login</a>
-                <a href="#">Register</a>
-                <a href="#">Contact</a>
+                <a href="/WEB-INF/pages/Login.jsp">Login</a>
+                <a href="/WEB-INF/pages/Register.jsp">Register</a>
+                <a href="/WEB-INF/pages/Contact.jsp">Contact</a>
                
             </div>
            
@@ -27,11 +28,11 @@
         </div>
     </nav>
     <header>
-        <div class="main-flex-container">  <!--Creating div for products-->
-            <a href="/islington-student/src/main/webapp/WEB-INF/pages/product.jsp" class="anchor"> <!--Using anchor tag to open particutar product page -->
+        <div class="main-flex-container"> 
+            <a href="/WEB-INF/pages/product1.jsp" class="anchor"> 
                 <div class="flex-items">
                     <div class="img-box1">
-                        <img src="../img/printer1.png">
+                        <img src="/images/system/g1.jpg">
                     </div>
                     <div class="text-box">
                         <h1> Fendor CD-60SK</h1>
@@ -44,10 +45,10 @@
                 <div class="product-page-button1">
                         <button>Buy Now</button></div>
             </a>
-            <a href="../product.pages/product2.html" class="anchor">
+            <a href="/WEB-INF/pages/product1.jsp" class="anchor">
                 <div class="flex-items">
                     <div class="img-box">
-                        <img src="../img/PIXMA G7020.png">
+                        <img src="/images/system/g2.jpg">
                     </div>
                     <div class="text-box">
                         <h1>Yamaha FG800J NT </h1>
@@ -59,10 +60,10 @@
                             <button>Buy Now</button></div>
                 </div>
             </a>
-            <a href="../product.pages/product3.html" class="anchor">
+            <a href="/WEB-INF/pages/product3.jsp" class="anchor">
                 <div class="flex-items">
                     <div class="img-box">
-                        <img src="../img/MAXIFY GX2020.png">
+                        <img src="/images/system/g3.jpg">
                     </div>
                     <div class="text-box">
                         <h1>Dandy Parlor</h1>
@@ -74,10 +75,10 @@
                             <button>Buy Now</button></div>
                 </div>
             </a>
-            <a href="../product.pages/product4.html" class="anchor">
+            <a href="/WEB-INF/pages/product4.jsp" class="anchor">
                 <div class="flex-items">
                     <div class="img-box5">
-                        <img src="../images/product 4.png">
+                        <img src="/images/system/g4.jpg">
                     </div>
                     <div class="text-box">
                         <h1>Mantra G12</h1>
@@ -91,10 +92,10 @@
             </a>
         </div>
        <div class="main-flex-container2">  <!-- creating another Div to hold more products-->
-            <a href="../product.pages/product5.html" class="anchor">
+            <a href="/WEB-INF/pages/product5.jsp" class="anchor">
                 <div class="flex-items">
                     <div class="img-box">
-                        <img src="../img/printer.4.png" style="scale: 135%;">
+                        <img src="/images/system/uk1.jpg" style="scale: 135%;">
                     </div>
                     <div class="text-box">
                         <h1>JOY MUSIC UK235</h1>
@@ -106,10 +107,10 @@
                             <button>Buy Now</button></div>
                 </div>
             </a>
-            <a href="../product.pages/product6.html" class="anchor">
+            <a href="/WEB-INF/pages/product6.jsp" class="anchor">
                 <div class="flex-items">
                     <div class="img-box">
-                        <img src="../img/EcoTank ET-2840.png">
+                        <img src="/images/system/uk2.jpg">
                     </div>
                     <div class="text-box">
                         <h1>Yamaha GL1</h1>
@@ -121,15 +122,15 @@
                             <button>Buy Now</button></div>
                 </div>
             </a>
-            <a href="../product.pages/product7.html" class="anchor">
+            <a href="/WEB-INF/pages/product7.jsp" class="anchor">
                 <div class="flex-items">
                     <div class="img-box">
-                        <img src="../img/HP Color LaserJet Pro.png">
+                        <img src="/images/system/uk3.jpg">
                     </div>
                     <div class="text-box">
                         <h1>Fendor Venice Soprano</h1>
                         
-                        <h2>Rs. 5,00</h2>
+                        <h2>Rs. 5,000</h2>
                        
                         
                     </div>
@@ -137,10 +138,10 @@
                             <button>Buy Now</button></div>
                 </div>
             </a>
-            <a href="../product.pages/product8.html" class="anchor">
+            <a href="/WEB-INF/pages/product8.jsp" class="anchor">
                 <div class="flex-items">
                     <div class="img-box-4">
-                        <img src="../img/HP ENVY Inspire 7255e.png">
+                        <img src="/images/system/uk4.jpg">
                     </div>
                     <div class="text-box">
                         <h1>Dream Maker UK21</h1>
@@ -170,7 +171,7 @@
 <br>
 <br>
 
-       <!-- footer codes -->
+        <!-- footer codes -->
         
         <footer>
             <section class="footer">
@@ -193,12 +194,12 @@
                <div class="col">
                    <h3>Pages below<div class="underline"></div></h3>
                    <ul>
-                       <li><a href="/WEB-INF/pages/home.jsp">Home</a></li>
-                       <li><a href="/WEB-INF/pages/product.jsp" target="_blank">Products</a></li>
-                       <li><a href="#">Login</a></li>
+                       <li><a href="WEB-INF/pages/home.jsp">Home</a></li>
+                       <li><a href="WEB-INF/pages/product.jsp" target="_blank">Products</a></li>
+                       <li><a href="WEB-INF/pages/login.jsp">Login</a></li>
                        
-                <li><a href="#" target="_blank">Register</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="WEB-INF/pages/register.jsp" target="_blank">Register</a></li>
+                <li><a href="WEB-INF/pages/contact.jsp">Contact</a></li>
             
                    </ul>
                </div>           
