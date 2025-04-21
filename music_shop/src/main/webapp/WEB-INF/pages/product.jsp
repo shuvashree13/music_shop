@@ -13,14 +13,14 @@
     <nav>
         <div class="container">
             <div class="logo">
-                <a href="home.jsp"><img src="../../resources/images/system/logo.png" alt="logo"></a>
+                <a href="home"><img src="${pageContext.request.contextPath}/resources/images/system/logo.png" alt="logo"></a>
             </div>
             <div class="links">
-                <a href="/WEB-INF/pages/home.jsp">Home</a>
-                <a href="/WEB-INF/pages/product.jsp">Products</a>
-                <a href="/WEB-INF/pages/Login.jsp">Login</a>
-                <a href="/WEB-INF/pages/Register.jsp">Register</a>
-                <a href="/WEB-INF/pages/Contact.jsp">Contact</a>
+                <a href="home">Home</a>
+                <a href="product">Products</a>
+                <a href="login.">Login</a>
+                <a href="register">Register</a>
+                <a href="contact">Contact</a>
                
             </div>
            
@@ -29,26 +29,26 @@
     </nav>
     <header>
         <div class="main-flex-container"> 
-            <a href="/WEB-INF/pages/product1.jsp" class="anchor"> 
+        
+            <a href="product1" class="anchor"> 
                 <div class="flex-items">
-                    <div class="img-box1">
-                        <img src="/images/system/g1.jpg">
+                    <div class="img-box">
+                        <img src="${pageContext.request.contextPath}/resources/images/system/g1.jpg">
                     </div>
                     <div class="text-box">
                         <h1> Fendor CD-60SK</h1>
-                      
-                        <h2>Rs. 15,000</h2>
-                        
+                        <h2>Rs. 15,000</h2>   
                     </div>
-                       
-                </div>
-                <div class="product-page-button1">
+                                    
+                <div class="product-page-button2">
                         <button>Buy Now</button></div>
+                </div>
             </a>
-            <a href="/WEB-INF/pages/product1.jsp" class="anchor">
+            
+            <a href="product2" class="anchor">
                 <div class="flex-items">
                     <div class="img-box">
-                        <img src="/images/system/g2.jpg">
+                        <img src="${pageContext.request.contextPath}/resources/images/system/g2.jpg">
                     </div>
                     <div class="text-box">
                         <h1>Yamaha FG800J NT </h1>
@@ -60,10 +60,10 @@
                             <button>Buy Now</button></div>
                 </div>
             </a>
-            <a href="/WEB-INF/pages/product3.jsp" class="anchor">
+            <a href="product3" class="anchor">
                 <div class="flex-items">
                     <div class="img-box">
-                        <img src="/images/system/g3.jpg">
+                        <img src="${pageContext.request.contextPath}/resources/images/system/g3.jpg">
                     </div>
                     <div class="text-box">
                         <h1>Dandy Parlor</h1>
@@ -75,10 +75,10 @@
                             <button>Buy Now</button></div>
                 </div>
             </a>
-            <a href="/WEB-INF/pages/product4.jsp" class="anchor">
+            <a href="product4" class="anchor">
                 <div class="flex-items">
-                    <div class="img-box5">
-                        <img src="/images/system/g4.jpg">
+                    <div class="img-box">
+                        <img src="${pageContext.request.contextPath}/resources/images/system/g4.jpg">
                     </div>
                     <div class="text-box">
                         <h1>Mantra G12</h1>
@@ -92,10 +92,10 @@
             </a>
         </div>
        <div class="main-flex-container2">  <!-- creating another Div to hold more products-->
-            <a href="/WEB-INF/pages/product5.jsp" class="anchor">
+            <a href="product5" class="anchor">
                 <div class="flex-items">
                     <div class="img-box">
-                        <img src="/images/system/uk1.jpg" style="scale: 135%;">
+                        <img src="${pageContext.request.contextPath}/resources/images/system/uk1.jpg" style="scale: 135%;">
                     </div>
                     <div class="text-box">
                         <h1>JOY MUSIC UK235</h1>
@@ -107,10 +107,10 @@
                             <button>Buy Now</button></div>
                 </div>
             </a>
-            <a href="/WEB-INF/pages/product6.jsp" class="anchor">
+            <a href="product6" class="anchor">
                 <div class="flex-items">
                     <div class="img-box">
-                        <img src="/images/system/uk2.jpg">
+                        <img src="${pageContext.request.contextPath}/resources/images/system/uk2.jpg">
                     </div>
                     <div class="text-box">
                         <h1>Yamaha GL1</h1>
@@ -122,10 +122,10 @@
                             <button>Buy Now</button></div>
                 </div>
             </a>
-            <a href="/WEB-INF/pages/product7.jsp" class="anchor">
+            <a href="product7" class="anchor">
                 <div class="flex-items">
                     <div class="img-box">
-                        <img src="/images/system/uk3.jpg">
+                        <img src="${pageContext.request.contextPath}/resources/images/system/uk3.jpg">
                     </div>
                     <div class="text-box">
                         <h1>Fendor Venice Soprano</h1>
@@ -138,10 +138,10 @@
                             <button>Buy Now</button></div>
                 </div>
             </a>
-            <a href="/WEB-INF/pages/product8.jsp" class="anchor">
+            <a href="product8" class="anchor">
                 <div class="flex-items">
-                    <div class="img-box-4">
-                        <img src="/images/system/uk4.jpg">
+                    <div class="img-box">
+                        <img src="${pageContext.request.contextPath}/resources/images/system/uk4.jpg">
                     </div>
                     <div class="text-box">
                         <h1>Dream Maker UK21</h1>
@@ -178,7 +178,7 @@
             
                 <div class="row">
                     <div class="col">
-                        <a href="index.html"><img src="logo/logo.png"class="logo1"></a>
+                        <a href=""><img src="${pageContext.request.contextPath}/resources/images/system/logo.png"class="logo1"></a>
                         
                </div>
                
