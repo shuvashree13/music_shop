@@ -10,18 +10,18 @@
     <title>Guitar Shop</title>
 </head>
 <body>
-    <!-- navigation bar of our website -->
+ <!-- navigation bar of our website -->
     <nav>
         <div class="container">
             <div class="logo">
                 <a href="home.jsp"><img src="../../resources/images/system/logo.png" alt="logo"></a>
             </div>
             <div class="links">
-                <a href="/WEB-INF/pages/home.jsp">Home</a>
-                <a href="/WEB-INF/pages/product.jsp">Products</a>
-                <a href="/WEB-INF/pages/Login.jsp">Login</a>
-                <a href="/WEB-INF/pages/Register.jsp">Register</a>
-                <a href="/WEB-INF/pages/Contact.jsp">Contact</a>
+                <a href="home">Home</a>
+                <a href="product">Products</a>
+                <a href="login.">Login</a>
+                <a href="register">Register</a>
+                <a href="contact">Contact</a>
                
             </div>
            
