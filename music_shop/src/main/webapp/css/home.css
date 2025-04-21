@@ -1,5 +1,471 @@
 @charset "UTF-8";
 
-.main-body {
-	padding: 20px;
+/* whole page css */
+*{
+  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: myfont;
 }
+/* whole page font which is downloaded locally inside a font folder */
+@font-face{
+    font-family: myfont;
+    src:url(../fonts/Poppins-Medium.ttf);
+    
+}
+@font-face {
+    font-family: myfont2;
+    src: url(../fonts/Fontspring-DEMO-integralcf-bold.otf);
+}
+
+/* css of body */
+body{
+    width: 100%;
+   
+    overflow-x:hidden;
+    background-color: white
+}
+
+
+/* nav bar css */
+nav{
+    width: 100%;
+    background-color:#ffffff;
+   
+
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+/* our websites logo css */
+.container .logo img{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 100px;
+    
+}
+
+/* css for the links inside the nav tag */
+.container .links a{
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    right: 25px;
+    margin: 0px 28px;
+    transition: 0.3s linear;
+  
+
+}
+a{
+    font-size: 18px;
+}
+
+
+/* for nav bar hover effect */
+
+.links a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    background-color: #000000;
+    height: 3.5px;
+    transition: 0.3s linear;
+   
+}
+.links a:hover::before,
+.link a:hover{
+    color: #10c9f7;
+    width: 100%;
+ 
+}
+
+
+
+
+/* section starts */
+#content{
+    margin: 50px;
+  width: 1800px;
+  position: relative;
+  top: -50px;
+  border-radius: 20px;
+  box-shadow: 4.5px 4.5px 20px rgba(0, 0, 0, .23)
+
+}
+section .content{
+    width: 1000PX;
+    height: 900px;
+    position: relative;
+    top: 100px;
+   
+   
+
+}
+.content .main-content{
+   
+    color:rgb(0, 0, 0);
+    margin: 0 150px;
+
+}
+.main-content h1{
+    font-size:140px;
+    font-family: myfont2;
+   
+    width: 500px;
+    position: relative;
+    top: 45px;
+    left: -30px;
+
+
+
+}
+.main-content h2{
+   font-size: 100px;
+   position: relative;
+   left: -30px;
+}
+
+.main-content p{
+  cursor:pointer;
+   position: relative;
+   top: 0px;
+   left: -30px;
+
+}
+
+.main-content .order{
+    display: flex;
+    margin: 20px 10px;
+    width: 100%;
+    justify-content: space-around;
+    min-height: 7vh;
+
+}
+
+.order h3{
+    font-size: 30px;
+    
+}
+ .order button{
+    scale: 140%;
+    min-width: 170px;
+    background-color: #000000;
+    
+    margin-left: 120px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 0 2px;
+    font-size: 20px;
+    transition: 0.1s linear;
+    position: relative;
+    top: 30px;
+    left: -330px;
+    transition: .2s;
+ }
+
+ .order button:hover{
+    scale: 120%;
+    box-shadow: 4.5px 4.5px 10px rgba(0, 0, 0, 0.3);
+ }
+
+    section .content img{
+    position: relative;
+    width: 1100px;
+    top: -580px;
+    left: 690px;
+    
+    
+ }
+
+ .fe-box{
+   display: flex;
+    text-align: center;
+  justify-content: space-around;
+    
+   
+  
+ }
+ 
+/* movetotop wala btn ko css */
+.move-to-top-btn{
+
+  position: fixed;
+  bottom: -400px;
+ 
+  scale: 4%;
+  background-color: #f0e5e5;
+  border-radius: 100%;
+  right: -410px;
+}
+
+.move-to-top-btn:hover{
+  scale: 5%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* products css */
+
+ #product1{
+    text-align: center;
+    
+ }
+
+ 
+ #product1 .procontainer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+   
+   
+ }
+
+ #product1 .pro{
+    
+    width: 25%;
+  
+    padding: 10px 12px;
+   border: 1px solid #e1ebca ;
+   
+    margin: 50px;
+    border-radius: 45px ;
+    transition: 0.2s ease;
+    position: relative;
+    background-color:rgb(223, 223, 223);
+    
+ }
+
+ #product1 .pro:hover{
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.02);
+    scale: 101%;
+ }
+
+ #product1 .pro .des span{
+    color: #606063;
+    font-size: 45px;
+    
+
+ }
+ .des{
+  position: relative;
+  bottom: 50px;
+ }
+ .des1{
+  position: relative;
+  bottom: 20px;
+  scale: 170%;
+  bottom: 60px;
+ }
+.des1 h1{
+  color: #606063;
+ font-size: 20px;
+}
+
+ #product1 .pro .des h5{
+    padding-top: 7px;
+    color:#1a1a1a;
+    font-size: 20px;
+   
+ }
+
+ #product1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 18px;
+   
+    
+   
+ }
+
+
+ 
+.cart{
+    width: 80px;
+   height: 30px;
+    
+    border-radius: 100px;
+    background-color: rgba(14, 209, 244, 0.589);
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+    cursor: progress;
+ }
+
+
+
+
+
+ /* banner css */
+
+
+
+ #banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/winterofferbanner/wintersale.jpeg");
+width: 100%;
+height: 50vh;
+
+background-size: cover;
+background-position: center; 
+
+
+}
+
+#banner button{
+    scale: 110%;
+    min-width: 170px;
+    background-color: #f35030;
+
+    margin-left: 120px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 0 2px;
+    font-size: 20px;
+    transition: 0.1s linear;
+position: relative;
+    top: 180px;
+    left: -75px;
+    transition: .2s;
+ }
+
+ #banner button:hover{
+    scale: 120%;
+    box-shadow: 4.5px 4.5px 10px rgba(0, 0, 0, 0.3);
+ }
+
+ .why{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+  
+  text-decoration: underline ;
+ text-underline-offset: 0.45em
+  
+ }
+
+ /* footer css */
+
+ 
+  .footer {
+    width: 100%;
+   
+   border-top-right-radius: 60px;
+   border-top-left-radius: 60px;
+    background:#ccc;
+    color:#000000;
+    padding:50px 0 30px;
+    border-top     :125px;
+    font-size: 13px;
+    line-height: 20px;
+    
+  }
+  .row{
+    width:85%;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: space-between;
+   
+  }
+  
+  
+  .col{
+    flex-basis:25%;
+    padding:10px;
+    
+  
+  }
+  .col:nth-child(2), .col:nth-child(3){
+    flex-basis: 15%;
+  
+  }
+  .col p{
+    scale: 95%;
+    
+  }
+  .logo1{
+    width: 170px;
+    margin-bottom: 30px;
+  
+  }
+  .col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position:relative;
+    font-size: 20px;
+  }
+  
+
+  ul li{
+    list-style:none ;
+    margin-bottom: 12px;
+    font-size: 20px;
+  }
+  
+  
+  ul li a{
+     text-decoration:none ;
+     color: #010101;
+     font-size: 17px;
+  }
+  
+  .col a{
+    list-style:none ;
+    margin-bottom: 12px;
+    text-decoration:none ;
+    color: #000000;
+  }
+  
+  .col a{
+    text-decoration:none ;
+    
+  }
+  
+
+  
+  hr{
+    width: 95%;
+    border: 0;
+    border-bottom: 1px solid #000000;
+    margin: 20px;
+ 
+  }
+  
+  
+  .copyright{
+   display: flex;
+   justify-content: center;
+   
+   background-color: #ccc;
+  
+    font-size: 16px;
+   
+   
+  }
+  
+  #payment img{
+    width: 130px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+ justify-content: space-between;
+  
+  }
