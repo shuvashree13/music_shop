@@ -9,27 +9,29 @@
     <link rel="stylesheet" type ="text/css" href="css/product.css" />
 </head>
 <body>
-<!--  header bar -->
+ <!-- navigation bar of our website -->
     <nav>
         <div class="container">
             <div class="logo">
-                <a href="home.jsp"><img src="/resources/imagse/system/logo.png" alt="logo"></a>
+                <a href="home"><img src="${pageContext.request.contextPath}/resources/images/system/logo.png" alt="logo"></a>
             </div>
             <div class="links">
-                <a href="/islington-student/src/main/webapp/WEB-INF/pages/home.jsp">Home</a>
-                <a href="../pages/product.jsp">Products</a>
-                <a href="#">Login</a>
-                <a href="#">Register</a>
-                <a href="#">Contact</a>
+                <a href="home">Home</a>
+                <a href="product">Products</a>
+                <a href="login.">Login</a>
+                <a href="register">Register</a>
+                <a href="contact">Contact</a>
                
-            </div>        
+            </div>
+           
+
         </div>
     </nav>
     
 <div class="product-page">
         <div class="individual-product-flex-container">
-            <div class="img-box-2"> <!--div tag to hold the image -->
-               <img src="/resources/images/system/g2.jpg">
+            <div class="img-box1"> <!--div tag to hold the image -->
+               <img src="${pageContext.request.contextPath}/resources/images/system/g2.jpg">
             </div>
             <div class="text-box-2"><!-- Div to hold the text -->
                <h1>Yamaha FG800J NT</h1>
@@ -58,7 +60,7 @@
             
                 <div class="row">
                     <div class="col">
-                        <a href="index.html"><img src="logo/logo.png"class="logo1"></a>
+                        <a href="home"><img src="logo/logo.png"class="logo1"></a>
                         
                </div>
                
