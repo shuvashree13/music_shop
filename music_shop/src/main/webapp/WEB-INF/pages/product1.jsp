@@ -41,18 +41,43 @@
                                                      Famous world wide<br>
                                                      Easy to tune</i> <br>
                 </p>        
-               <h1>Rs. 15,000</h1>
+               <h1>Rs 15,000</h1>
               
             </div>
-            <span class="button-2"> <button>Buy Now</button></span>
+            <span class="button-2"> <button onclick="addToCart('Fendor CD-60SK',15000)">Add to Cart</button>
+</span>
         </div>
     </div>
+     <div style="text-align: center; margin-top: 20px;">
+  <a href="cart" style="
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+  ">
+    Go to Cart
+  </a>
+</div>
+
+
+    
+     <script>
+    function addToCart(name, price) {
+      let cart = JSON.parse(localStorage.getItem('cart')) || [];
+      cart.push({name, price});
+      localStorage.setItem('cart', JSON.stringify(cart));
+      alert(name + " added to cart!");
+    }
+  </script>
+  
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    
+    
     
     <!-- footer code starts -->
 <footer>
@@ -60,7 +85,7 @@
             
                 <div class="row">
                     <div class="col">
-                        <a href="home"><img src="logo/logo.png"class="logo1"></a>
+                         <a href="home"><img src="${pageContext.request.contextPath}/resources/images/system/logo.png" alt="logo"></a>
                         
                </div>
                
@@ -90,6 +115,5 @@
         
             </section> 
          </footer>
-
 </body>
 </html>
