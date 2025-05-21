@@ -42,7 +42,7 @@ public class DashboardController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // Retrieve all student information from the DashboardService
-        request.setAttribute("studentList", dashboardService.getAllStudentsInfo());
+        request.setAttribute("CustomerList", dashboardService.getAllStudentsInfo());
 
         // Forward the request to the dashboard JSP for rendering
         request.getRequestDispatcher("/WEB-INF/pages/dashboard.jsp").forward(request, response);
